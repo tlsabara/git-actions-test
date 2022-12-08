@@ -1,0 +1,16 @@
+name: Shell comands
+
+on: push
+
+jobs:
+  run-shell-command:
+    run-on: ubuntu-18.04
+    steps:
+      - name: echo a string
+        run: echo "Hello Git Actions World!!"
+
+      - name: multiline script
+        run: |
+          node -v 
+          npm -v
+          python -v
