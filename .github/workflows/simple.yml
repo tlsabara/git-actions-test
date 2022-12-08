@@ -11,6 +11,11 @@ jobs:
 
       - name: multiline script
         run: |
+          echo ">> Inicio do STEP: Multiline Script"
+          echo ">> Verificando versão do NODE"
           node -v 
+          echo ">> Verificando a versão do NPM"
           npm -v
+          echo ">> Verificando a versão do PYTHON"
           python -V
+          echo ">> Fim do STEP: Multiline Script"
