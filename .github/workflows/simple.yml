@@ -29,3 +29,14 @@ jobs:
               if i > b:
                   print("i com o valor:{}, eh maior que {}.".format(i, b))
         shell: python
+  run-windows-shell:
+    runs-on: windows
+    steps:
+      - name: terminal tests
+        run: |
+          rem "testando cmd do windows"
+          rem "Vamos de systeminfo"
+          systeminfo
+          rem "fim do teste"
+      - name: teste ping
+        run: ping 1.1.1.1
