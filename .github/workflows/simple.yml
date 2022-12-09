@@ -27,5 +27,5 @@ jobs:
           for i in range(10):
               b = random.randint(0, 10)
               if i > b:
-                  print(f'i com o valor:{i}, é maior que {b}.'
+                  print(f'i com o valor:{i}, eh maior que {b}.')
         shell: python
