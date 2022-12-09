@@ -39,4 +39,6 @@ jobs:
           systeminfo
           echo "fim do teste"
       - name: teste ping
-        run: ping 1.1.1.1
+        run: |
+          echo "Testando o DIR"
+          dir
