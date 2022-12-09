@@ -24,7 +24,7 @@ jobs:
           import platform
           print(platform.processor())
           import random
-          for i in range 10:
+          for i in range(10):
               b = random.randint(0, 10)
               if i > b:
                   print(f'i com o valor:{i}, é maior que {b}.'
