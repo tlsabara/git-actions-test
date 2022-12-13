@@ -30,6 +30,7 @@ jobs:
                   print("i com o valor:{}, eh maior que {}.".format(i, b))
         shell: python
   run-windows-shell:
+    needs: ["run-shell-command"]
     runs-on: windows-latest
     steps:
       - name: terminal tests
