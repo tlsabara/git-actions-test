@@ -40,5 +40,5 @@ jobs:
           echo "fim do teste"
       - name: teste ping
         run: |
-          echo "Testando o DIR"
-          dir
+          echo "Testando o NSLOOKUP"
+          nslookup google.com
